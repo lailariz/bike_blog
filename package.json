@@ -2,7 +2,7 @@
   "name": "bike_blog",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://myusername.github.io/my-app",
+  "homepage": "https://zlailari.github.io/bike_blog",
   "dependencies": {
     "gh-pages": "^1.1.0",
     "npm": "^6.1.0",
