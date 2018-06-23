@@ -79,6 +79,7 @@ class ImgBrowser extends Component {
           onClickThumbnail={this.goToImage}
           onClose={this.closeLightbox}
           showThumbnails={true}
+          backdropClosesModal={true}
         />
     );
   }
