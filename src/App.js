@@ -5,6 +5,7 @@ import {Switch, Route, Redirect} from 'react-router-dom'
 import Header from './components/Header';
 import HomePage from './components/HomePage';
 import About from './components/About';
+import Post from './components/Post';
 import './App.css';
 
 global.jQuery = require('jquery');
@@ -31,12 +32,15 @@ class App extends Component {
     return (
       <div className="App container">
         <Header />
+          <div>
 
-        <Switch>
-          <Route exact path="/" component={HomePage}/>
-          <Route path="/About" component={About}/>
-          <Redirect to="/" />
-        </Switch>
+            <Switch>
+              <Route exact path="/" component={HomePage}/>
+              <Route path="/About" component={About}/>
+              <Route path="/post/07-01-2018" component={Post}/>
+              <Redirect to="/" />
+            </Switch>
+        </div>
       </div>
     );
   }

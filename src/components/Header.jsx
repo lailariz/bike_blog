@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
 import NavLink from "./NavLink";
-import logo from '../bike_logo.svg';
+import logo from '../img/bike_logo3.jpg';
+import { Link } from 'react-router-dom';
 
 class Header extends Component {
   render () {
     return (
-			<nav className="navbar navbar-expand-lg navbar-light p-1">
+			<nav className="navbar navbar-expand-lg navbar-light p-0 py-3">
         <div className="d-flex">
-			    <img src={logo} className="logo" alt="logo" />
+          <Link to="/">
+			      <img src={logo} className="logo" alt="logo" />
+          </Link>
 			    <button className="navbar-toggler ml-auto my-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			      <span className="navbar-toggler-icon"></span>
 			    </button>

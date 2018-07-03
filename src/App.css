@@ -9,9 +9,9 @@
 }
 
 .bg-img {
-  background-image: url('bg_img.jpg');
-	opacity: 0.4;
-	filter: brightness(90%) grayscale(100%);
+  background-image: url('img/barcelona_sunset.jpg');
+	opacity: 1;
+	/* filter: brightness(100%) grayscale(100%); */
 }
 
 .centered-bg-img {
@@ -30,10 +30,31 @@
 	transform: translate3d(0, 0, 0);
 }
 
+.bg-img-test {
+  background-image: url('img/bg_img.jpg');
+  opacity: 0.4;
+	filter: brightness(80%) grayscale(100%);
+	position: relative;
+	width: 100%;
+	height: 100%;
+  min-height: 400px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	-moz-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
 .splash-text-container {
 	position: absolute;
 	top: 0px;
 	left: 0px;
+  color: white;
 }
 
 .title-text {
@@ -41,14 +62,25 @@
 	font-weight: 225;
 }
 
+.title-text-md {
+	font-size: 2.4rem;
+	font-weight: 225;
+}
+
+.title-text-sm {
+	font-size: 1rem;
+	font-weight: 225;
+}
+
 .logo {
-  width: 40vh;
+  width: 35vh;
   max-width: 35%;
   max-height: 14vh;
 }
 
 #jumbotron-splash {
 	height: 70vh;
+  margin-bottom: 1rem;
 }
 
 .unstyled-link {
@@ -69,4 +101,16 @@
   width: auto;
   max-width: 100%;
   max-height: 100%;
+}
+
+.post-content p {
+  margin: 0 0 1.25em;
+  margin-bottom: 1.25em;
+  font-family: "Helvetica Neue",Helvetica,sans-serif;
+  font-weight: normal;
+  line-height: 1.67em;
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  color: #454545;
 }
