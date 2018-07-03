@@ -3,25 +3,24 @@ import PropTypes from 'prop-types';
 import Posts from '../content/Posts'
 
 class Post extends Component {
-  propTypes = {
+  static propTypes = {
     title: PropTypes.string,
   }
 
   render() {
-    const postText = Posts["07-01-2018"].text
-
+    const date = "07-01-2018";
+    const postText = Posts[date]
+    // const re = /\d\d-\d\d\-\d\d\d\d$/;
+    // const date = re.exec(this.props.match.url)[0];
+    // const postText = Posts[date];
 
     return (
       <div>
-        <h1>Traveling to Europe: Coincidence and Kindness</h1>
+        <h1>{postText.title}</h1>
         <div className="post-content">
-					{postText.map(function(contentValue){
+          {postText.text.map(function(contentValue){
             return <p>{contentValue}</p>;
           })}
-
-          { 
-            postText.reduce(p => (<p>{postText[p]}</p>))
-          }
         </div>
       </div>
     );

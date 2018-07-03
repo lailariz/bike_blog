@@ -6,6 +6,7 @@ import Header from './components/Header';
 import HomePage from './components/HomePage';
 import About from './components/About';
 import Post from './components/Post';
+import Routes from './components/Routes';
 import './App.css';
 
 global.jQuery = require('jquery');
@@ -37,6 +38,7 @@ class App extends Component {
             <Switch>
               <Route exact path="/" component={HomePage}/>
               <Route path="/About" component={About}/>
+              <Route path="/Routes" component={Routes}/>
               <Route path="/post/07-01-2018" component={Post}/>
               <Redirect to="/" />
             </Switch>
