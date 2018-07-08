@@ -17,7 +17,7 @@ class Post extends Component {
     return (
       <div>
         <h1>{postText.title}</h1>
-        <div className="post-content">
+        <div className="pt-2 post-content">
           {postText.text.map(function(contentValue){
             return <p>{contentValue}</p>;
           })}

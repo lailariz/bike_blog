@@ -8,8 +8,14 @@
 	text-align: center;
 }
 
-.bg-img {
+.barcelona-bg-img {
   background-image: url('img/barcelona_sunset.jpg');
+	opacity: 1;
+	/* filter: brightness(100%) grayscale(100%); */
+}
+
+.croatia-bg-img {
+  background-image: url('img/croatia_sunset.jpg');
 	opacity: 1;
 	/* filter: brightness(100%) grayscale(100%); */
 }

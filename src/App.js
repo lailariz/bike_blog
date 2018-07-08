@@ -8,6 +8,8 @@ import About from './components/About';
 import Post from './components/Post';
 import Routes from './components/Routes';
 import './App.css';
+import p1 from './posts/07-01-2018';
+import p2 from './posts/07-08-2018';
 
 global.jQuery = require('jquery');
 require('bootstrap');
@@ -39,7 +41,8 @@ class App extends Component {
               <Route exact path="/" component={HomePage}/>
               <Route path="/About" component={About}/>
               <Route path="/Routes" component={Routes}/>
-              <Route path="/post/07-01-2018" component={Post}/>
+              <Route path="/post/07-01-2018" component={p1}/>
+              <Route path="/post/07-08-2018" component={p2}/>
               <Redirect to="/" />
             </Switch>
         </div>
