@@ -18,22 +18,22 @@ h1 {
 
 .barcelona-bg-img {
   background-image: linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
     ),url('img/barcelona_sunset.jpg');
 }
 
 .croatia-bg-img {
   background-image: linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
     ),url('img/croatia-1/croatia_sunset.jpg');
 }
 
 .monte-bg-img {
   background-image: linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
     ),url('img/monte-1/monte-splash.jpg');
 }
 
