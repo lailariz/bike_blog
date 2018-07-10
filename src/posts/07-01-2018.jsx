@@ -5,7 +5,7 @@ class Post1 extends Component {
   render() {
     return (
       <div>
-        <h1 className="title-text">Traveling to Europe: Kindness in Barcelona</h1>
+        <h1 className="title-text">Traveling to Europe</h1>
         <div className="post-content pb-2">
           <img className="img-fluid pb-3" src={barcelona} alt="Barcelona" />
           <p>{"Ze’ev and I have successfully arrived in our first destination in Europe: Barcelona. While Ze’ev has already been in Barcelona for a couple days to attend a workshop at the CCCB, I am only here for 4 days as a layover before we both head to Croatia. Getting ourselves to this point took countless hours of researching, planning, deassembling bikes and packing 2 months of gear into our bike boxes. We will be living off of everything we are bringing, so it was crucial that we took the time to think through our plans.  We will also be carrying everything we bring on our bikes, so we needed to make sure we were only bringing what was necessary. Finally, everything had to fit in one giant bike box (including our bikes) and so we made sure that it would all fit and also be under the 50lb checked bag weight limit."}</p>
