@@ -11,7 +11,7 @@ class Header extends Component {
           <Link to="/">
 			      <img src={logo} className="logo" alt="logo" />
           </Link>
-			    <button className="navbar-toggler ml-auto my-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <button className="navbar-toggler hamburger" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			      <span className="navbar-toggler-icon"></span>
 			    </button>
         </div>

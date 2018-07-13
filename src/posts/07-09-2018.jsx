@@ -31,19 +31,19 @@ class Post3 extends Component {
     	    <p>{"We started by staying two nights in Budva's old town (thanks Milja!) before continuing Southeast over a mountain range and along Skadar Lake to a large field to Rijeka Crnojevica."}</p>
           <div className="row text-center d-block">
             <a href={coast1} data-lightbox="monte-1" data-title="">
-              <img className="img-fluid col-2 pb-3" src={coast1} alt="" />
+              <img className="img-fluid col-6 pb-3" src={coast1} alt="" />
             </a>
             <a href={coast2} data-lightbox="monte-1" data-title="">
-              <img className="img-fluid col-2 pb-3" src={coast2} alt="" />
+              <img className="img-fluid col-6 pb-3" src={coast2} alt="" />
             </a>
-            <a href={coast3} data-lightbox="monte-1" data-title="">
-              <img className="img-fluid col-2 pb-3" src={coast3} alt="" />
+            <a hidden href={coast3} data-lightbox="monte-1" data-title="">
+              <img className="img-fluid col-6 pb-3" src={coast3} alt="" />
             </a>
             <a href={coast4} data-lightbox="monte-1" data-title="">
-              <img className="img-fluid col-2 pb-3" src={coast4} alt="" />
+              <img className="img-fluid col-6 pb-3" src={coast4} alt="" />
             </a>
             <a href={coast5} data-lightbox="monte-1" data-title="">
-              <img className="img-fluid col-2 pb-3" src={coast5} alt="" />
+              <img className="img-fluid col-6 pb-3" src={coast5} alt="" />
             </a>
           </div>
 					<p>{"The next day we biked 1,500 feet out of the lake valley along a quiet meandering road. We passed bee farms, wineries, and stands selling mead and olive oil. Along the way a older Montenegrin man named Andy yelled from his shack inviting us to try some of his homemade schnapps. He had dozens of flavors and we sampled fig, walnut, pear, anice, and more. He gave us apples, cheese, and tea. He showed us pictures of him in front of Niagra Falls from when he lived in Canada, him hugging Putin, and his wife and kids. He was so friendly and it was quite memorable. I love biking because you get to meet people like this and peer into their lives. "}</p>
