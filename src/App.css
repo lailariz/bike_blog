@@ -37,6 +37,34 @@ h1 {
     ),url('img/monte-1/monte-splash.jpg');
 }
 
+.kor-bg-img {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),url('img/kor-1/kor-1.jpg');
+}
+
+.split-bg-img {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),url('img/split-1/split-14.jpg');
+}
+
+.mali-bg-img {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),url('img/mali-1/mali-1.jpg');
+}
+
+.slov-bg-img {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),url('img/slov-1/slov-1.jpg');
+}
+
 /*
 .barcelona-bg-img:hover {
   background-image: url('img/barcelona_sunset.jpg');
