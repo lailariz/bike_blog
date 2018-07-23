@@ -31,7 +31,7 @@ class Post6 extends Component {
           </div>
           <p>Finally, we befriended 3 Canadians, Chase, Teagan, and Ashley, who are biking from Athens to Paris and are going the same route as us through Slovenia. We became a biker gang of 5, for 6 days.</p>
           <div className="row text-center d-block">
-            <a hidden href={slov3} data-lightbox="slov-1" data-title="">
+            <a href={slov3} data-lightbox="slov-1" data-title="">
               <img className="img-fluid col-4 pb-3" src={slov3} alt="" />
             </a>
             <a href={slov2} data-lightbox="slov-1" data-title="">

@@ -44,7 +44,7 @@ class Post5 extends Component {
             <a href={split9} data-lightbox="split-1" data-title="">
               <img className="img-fluid col-3 pb-3" src={split9} alt="" />
             </a>
-            <a hidden href={split10} data-lightbox="split-1" data-title="">
+            <a href={split10} data-lightbox="split-1" data-title="">
               <img className="img-fluid col-3 pb-3" src={split10} alt="" />
             </a>
             <a href={split11} data-lightbox="split-1" data-title="">

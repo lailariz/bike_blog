@@ -22,7 +22,7 @@ class Post6 extends Component {
             <a href={mali2} data-lightbox="mali-1" data-title="">
               <img className="img-fluid col-4 pb-3" src={mali2} alt="" />
             </a>
-            <a hidden href={mali3} data-lightbox="mali-1" data-title="">
+            <a href={mali3} data-lightbox="mali-1" data-title="">
               <img className="img-fluid col-4 pb-3" src={mali3} alt="" />
             </a>
             <a href={mali4} data-lightbox="mali-1" data-title="">

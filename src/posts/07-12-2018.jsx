@@ -44,7 +44,7 @@ class Post4 extends Component {
             <a href={kor5} data-lightbox="kor-1" data-title="">
               <img className="img-fluid col-6 pb-3" src={kor5} alt="" />
             </a>
-            <a hidden href={kor6} data-lightbox="kor-1" data-title="">
+            <a href={kor6} data-lightbox="kor-1" data-title="">
               <img className="img-fluid col-6 pb-3" src={kor6} alt="" />
             </a>
             <a href={kor7} data-lightbox="kor-1" data-title="">
