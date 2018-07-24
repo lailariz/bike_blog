@@ -67,8 +67,8 @@ h1 {
 
 .slov2-bg-img {
   background-image: linear-gradient(
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.2)
+      rgba(0, 0, 0, 0.0),
+      rgba(0, 0, 0, 0.0)
     ),url('img/slov-2/slov-19.jpg');
 }
 

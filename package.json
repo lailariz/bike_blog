@@ -12,6 +12,7 @@
     "react": "^16.4.0",
     "react-bootstrap": "^0.32.1",
     "react-dom": "^16.4.0",
+    "react-ga": "^2.5.3",
     "react-images": "^0.5.17",
     "react-photo-gallery": "^6.0.27",
     "react-router-dom": "^4.3.1",
