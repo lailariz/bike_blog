@@ -12,12 +12,12 @@ class HomePage extends Component {
 //    		date: "July , 2018",
 //    		link: "/post/07--2018",
 //    	},
-//      {
-//    		img: "-bg-img",
-//    		title: "",
-//    		date: "July , 2018",
-//    		link: "/post/07--2018",
-//    	},
+      {
+    		img: "slov2-bg-img",
+    		title: "Terrific Triglav",
+    		date: "July 22, 2018",
+    		link: "/post/07-22-2018",
+    	},
       {
     		img: "slov-bg-img",
     		title: "Entering Slovenia",
@@ -71,8 +71,7 @@ class HomePage extends Component {
         <Splash postData={postStack[3]}/>
 
         <ImgStoryGrid gridData={postStack.slice(4, 6)}/>
-
-        <Splash postData={postStack[6]}/>
+        <ImgStoryGrid gridData={postStack.slice(6, 8)}/>
       </div>
     );
   }

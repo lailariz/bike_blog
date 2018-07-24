@@ -65,6 +65,13 @@ h1 {
     ),url('img/slov-1/slov-1.jpg');
 }
 
+.slov2-bg-img {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),url('img/slov-2/slov-19.jpg');
+}
+
 /*
 .barcelona-bg-img:hover {
   background-image: url('img/barcelona_sunset.jpg');
