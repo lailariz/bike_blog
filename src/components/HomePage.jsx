@@ -6,12 +6,30 @@ import ImgStoryGrid from './ImgStoryGrid';
 class HomePage extends Component {
   render () {
     const postStack = [
-//      {
-//    		img: "-bg-img",
-//    		title: "",
-//    		date: "July , 2018",
-//    		link: "/post/07--2018",
-//    	},
+      {
+    		img: "germany2-bg-img",
+    		title: "Wilcommen a Berlin",
+    		date: "August 1, 2018",
+    		link: "/post/08-01-2018",
+    	},
+      {
+    		img: "germany1-bg-img",
+    		title: "Warm Showers in Deutschland",
+    		date: "July 28, 2018",
+    		link: "/post/07-28-2018",
+    	},
+      {
+    		img: "czech-bg-img",
+    		title: "A Brief Stay in Czech Republic",
+    		date: "July 25, 2018",
+    		link: "/post/07-25-2018",
+    	},
+      {
+    		img: "ljubljana-bg-img",
+    		title: "Ljubljiana: Dragons and Ice Cream",
+    		date: "July 23, 2018",
+    		link: "/post/07-23-2018",
+    	},
       {
     		img: "slov2-bg-img",
     		title: "Terrific Triglav",
@@ -56,7 +74,7 @@ class HomePage extends Component {
     	},
       {
     		img: "barcelona-bg-img",
-    		title: "Travelling to Barcelona",
+    		title: "Travelling to Europe",
     		date: "July 1, 2018",
     		link: "/post/07-01-2018",
     	},
@@ -69,9 +87,14 @@ class HomePage extends Component {
         <ImgStoryGrid gridData={postStack.slice(1, 3)}/>
 
         <Splash postData={postStack[3]}/>
+        <Splash postData={postStack[4]}/>
 
-        <ImgStoryGrid gridData={postStack.slice(4, 6)}/>
-        <ImgStoryGrid gridData={postStack.slice(6, 8)}/>
+        <ImgStoryGrid gridData={postStack.slice(5, 7)}/>
+        <ImgStoryGrid gridData={postStack.slice(7, 9)}/>
+
+        <Splash postData={postStack[10]}/>
+
+        <ImgStoryGrid gridData={postStack.slice(10, 12)}/>
       </div>
     );
   }

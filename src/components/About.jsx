@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import pic from '../img/mz.jpg'
+import picw from '../img/mz.webp'
 
 class About extends Component {
   render () {
@@ -12,7 +13,10 @@ class About extends Component {
             <p>If you would like to get in touch with us for any reason, please send an email to <strong>wheeliegoodfriends@gmail.com</strong></p>
           </div>
           <div className="col-sm-12 col-md-6">
-            <img className="about-pic" src={pic} alt='Us' />
+            <picture>
+              <source type="image/webp" srcset={picw} />
+              <img className="about-pic" src={pic} alt='Us' />
+            </picture>
           </div>
         </div>
       </div>

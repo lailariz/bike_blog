@@ -72,6 +72,34 @@ h1 {
     ),url('img/slov-2/slov-19.jpg');
 }
 
+.ljubljana-bg-img {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.0),
+      rgba(0, 0, 0, 0.0)
+    ),url('img/ljubljana-1/ljubljana-11.jpg');
+}
+
+.czech-bg-img {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.25),
+      rgba(0, 0, 0, 0.25)
+    ),url('img/czech-1/czech-3.jpg');
+}
+
+.germany1-bg-img {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
+    ),url('img/germany-1/germany-3.jpg');
+}
+
+.germany2-bg-img {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),url('img/germany-2/germany-3.jpg');
+}
+
 /*
 .barcelona-bg-img:hover {
   background-image: url('img/barcelona_sunset.jpg');
