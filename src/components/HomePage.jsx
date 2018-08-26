@@ -92,9 +92,9 @@ class HomePage extends Component {
         <ImgStoryGrid gridData={postStack.slice(5, 7)}/>
         <ImgStoryGrid gridData={postStack.slice(7, 9)}/>
 
-        <Splash postData={postStack[10]}/>
+        <Splash postData={postStack[9]}/>
 
-        <ImgStoryGrid gridData={postStack.slice(10, 12)}/>
+        <ImgStoryGrid gridData={postStack.slice(9, 11)}/>
       </div>
     );
   }
