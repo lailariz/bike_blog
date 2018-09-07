@@ -42,6 +42,8 @@ class Post13 extends Component {
               <img className="img-fluid col-6 pb-3" src={picture7} alt="" />
             </a>
           </div>
+          <p>{"Have a bike and want to try it out? California is a great place to do this. You can plan your ride around different bakeries or wineries in Sonoma or find epic viewpoints along the coast. There are hiker-biker sites all around the state, which are $5/person per night and the campsite can’t turn you away. This makes bicycle touring a fantastic spontaneous weekend activity.  Check out Nat.ai to find the perfect route for you."}</p>
+          <p>{"Best of luck! You'll be hooked."}</p>
         </div>
       </div>
     );
