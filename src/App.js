@@ -20,6 +20,7 @@ import p9 from './posts/07-23-2018';
 import p10 from './posts/07-25-2018';
 import p11 from './posts/07-28-2018';
 import p12 from './posts/08-01-2018';
+import p13 from './posts/09-07-2018';
 
 global.jQuery = require('jquery');
 require('bootstrap');
@@ -63,6 +64,7 @@ class App extends Component {
               <Route path="/post/07-25-2018" component={p10}/>
               <Route path="/post/07-28-2018" component={p11}/>
               <Route path="/post/08-01-2018" component={p12}/>
+              <Route path="/post/09-07-2018" component={p13}/>
               <Redirect to="/" />
             </Switch>
         </div>
