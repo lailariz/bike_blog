@@ -14,7 +14,7 @@ class Post6 extends Component {
       <div>
         <h1 className="title-text">Entering Slovenia</h1>
         <div className="post-content pb-2">
-          <p>We’ve spent the last 5 days in Slovenia and it’s been the most beautiful part of the trip so far. Fewer cars, smaller roads, and more bicyclists than I’ve ever seen on roads. We’ve also done our biggest climbs and descents.</p>
+          <p>We’ve spent the last 5 days in Slovenia and it’s been the most beautiful part of the trip so far. There have been fewer cars, smaller roads, and more bicyclists than I’ve ever seen on roads. We’ve also took on our biggest climbs and descents yet, eliciting a sense of excitement, accomplishment and adventure:)</p>
           <div className="row text-center d-block">
             <a href={slov8} data-lightbox="slov-1" data-title="">
               <img className="img-fluid col-6 pb-3" src={slov8} alt="" />
@@ -29,7 +29,7 @@ class Post6 extends Component {
               <img className="img-fluid pb-3" src={slov7} alt="" />
             </a>
           </div>
-          <p>Finally, we befriended 3 Canadians, Chase, Teagan, and Ashley, who are biking from Athens to Paris and are going the same route as us through Slovenia. We became a biker gang of 5, for 6 days.</p>
+          <p>We also befriended 3 Canadians, Chase, Teagan, and Ashley, who are biking from Athens to Paris. We learned that they were going the same route as us through Slovenia and we quickly became a biker gang of five for six days.</p>
           <div className="row text-center d-block">
             <a href={slov3} data-lightbox="slov-1" data-title="">
               <img className="img-fluid col-4 pb-3" src={slov3} alt="" />
@@ -41,7 +41,8 @@ class Post6 extends Component {
               <img className="img-fluid col-4 pb-3" src={slov4} alt="" />
             </a>
           </div>
-    	    <p>After an amazing day of biking through the Istrian Peninsula (and encountering a 18% grade hill so steep we had to walk our bikes), we arrived in Buzet, the last city in Croatia before climbing 2,500 ft to reach the Croatia/Slovenia border. After at least an hour of climbing, we finally reached the border around 6pm, only to be told that only EU citizens could use this entry point. The guard told us that we would either need to go back down the mountain or continue another 25 km to the next border crossing in the mountains. Unwilling to go back down the hill we just climbed, we opted to find a camping spot nearby and continue on to the next border crossing early the next morning.</p>
+    	    <p>After an amazing day of biking through the Istrian Peninsula (and encountering a 18% grade hill so steep we had to walk our bikes), we arrived in Buzet, the last city in Croatia before climbing 2,500 ft to reach the Croatia/Slovenia border. When we finally reached the border around 6pm, the border guards just looked at our passports and with little compassion and a thick English accent, told us that only EU citizens could use this Slovenia entry point. Furthermore, he recommend that we go back down the mountain and use a different border crossing or continue another 25 km to the next border crossing in the mountains. Exhausted from the day, we were absolutely unwilling to go back down the hill and up another one. So, we opted to find a camping spot nearby and continue on to the next border crossing early the next morning.</p>
+				<p>Fortunately, we found a beautiful campsite in a grove of trees about 100 yards off the main road. Ze'ev and I cooked up 500grams of pasta and lentils for dinner and sat chatting and laughing with our new friends. Even though we had felt absolutely crushed just hours before while sitting at the border, now we were full of warm food and happy with our new camping companions.</p>
           <div className="text-center">
             <a href={slov6} data-lightbox="slov-1" data-title="">
               <img className="img-fluid pb-3" src={slov6} alt="" />
